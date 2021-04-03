@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Touch",
+      "price": 235.89
+    },
+    {
+      "id": 2,
+      "name": "Mouse Gamer",
+      "price": 95.39
+    },
+    {
+      "id": 3,
+      "name": "Cadeira Confort Ofice",
+      "price": 865
+    },
+    {
+      "id": 4,
+      "name": "Teclado macio",
+      "price": 115.89
+    },
+    {
+      "name": "Notebook Samsung",
+      "price": "1545.83",
+      "id": 5
+    },
+    {
+      "name": "Celular Xiomi",
+      "price": "2358.66",
+      "id": 6
+    }
+  ]
+}
