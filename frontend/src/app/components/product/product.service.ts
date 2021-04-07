@@ -9,7 +9,7 @@ export class ProductService {
   constructor(private snackBar: MatSnackBar) { }
 
   showMenssage(msg: string): void {
-    this.snackBar.open(msg, '', {
+    this.snackBar.open(msg, 'X', {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top"
