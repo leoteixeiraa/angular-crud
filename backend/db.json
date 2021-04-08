@@ -29,6 +29,16 @@
       "name": "Celular Xiomi",
       "price": "2358.66",
       "id": 6
+    },
+    {
+      "name": "Veio do formulario",
+      "price": "455.87",
+      "id": 7
+    },
+    {
+      "name": "Geladeira",
+      "price": "566.98",
+      "id": 8
     }
   ]
 }
