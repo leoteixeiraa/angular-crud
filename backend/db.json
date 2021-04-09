@@ -39,6 +39,11 @@
       "name": "Geladeira",
       "price": "566.98",
       "id": 8
+    },
+    {
+      "name": "Chuveiro",
+      "price": "4432.76",
+      "id": 9
     }
   ]
 }
