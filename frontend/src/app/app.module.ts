@@ -1,5 +1,5 @@
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +25,15 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -36,7 +45,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
     ProductCrudComponent,
     ProductCreateComponent,
     RedDirective,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductRead2Component
   ],
   imports: [
     BrowserModule,
@@ -51,9 +61,15 @@ import { ProductReadComponent } from './components/product/product-read/product-
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-br'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
