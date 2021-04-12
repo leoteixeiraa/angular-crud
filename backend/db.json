@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta Touch",
+      "name": "Caneta TouchScreen",
       "price": 235.89
     },
     {
@@ -39,11 +39,6 @@
       "name": "Geladeira",
       "price": "566.98",
       "id": 8
-    },
-    {
-      "name": "Chuveiro",
-      "price": "4432.76",
-      "id": 9
     }
   ]
 }
