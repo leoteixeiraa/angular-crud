@@ -16,3 +16,12 @@
 .header .title-group i {
     padding-left: 5px
 }
+.link {
+    color: slategrey;
+    text-decoration: none;
+
+}
+.title {
+   margin: 10px 25px 15px 8px;
+   color: slategrey;
+}
