@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "name": "Cadeira Confort Ofice",
+      "name": "Cadeira Confort Ofice!",
       "price": 865
     },
     {
@@ -39,6 +39,11 @@
       "name": "Geladeira",
       "price": "566.98",
       "id": 8
+    },
+    {
+      "name": "teste",
+      "price": "2232",
+      "id": 9
     }
   ]
 }
