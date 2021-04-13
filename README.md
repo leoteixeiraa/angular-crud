@@ -5,6 +5,8 @@ Repositório destinado para estudo e prática dos principais conceitos em Angula
 ## Componentes utilizados
 * Material Design
 
-### principais comandos
-Criação de componentes:
-> ng g c components/template/header
+
+### Base do constructor(
+>    private productService: ProductService,
+>    private router: Router,
+>    private route: ActivatedRoute
