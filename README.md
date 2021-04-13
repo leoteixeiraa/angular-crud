@@ -2,7 +2,7 @@
 Repositório destinado para estudo e prática dos principais conceitos em Angular tanto do lado front-end quanto pelo Back-end.
 - Programação reativa utilizada.
 
-![](frontend/src/assets/img/sistema_inicial)
+![](frontend/src/assets/img/sistema_inicial.png)
 
 ## Componentes utilizados
 * Material Design
