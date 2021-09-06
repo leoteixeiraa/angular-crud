@@ -14,7 +14,7 @@ Acesse uma demonstração do sistema [clicando aqui ](https://i.imgur.com/669s3e
 
 ## Como instalar
 - Baixe ou clone este repositório usando `git clone https://github.com/leoteixeiraa/angular-crud.git`;
-- Dentro do diretório, instale as dependências usando `npm install`.
+- Dentro do diretório /frontend, instale as dependências usando `npm install`.
 
 ## Como executar
 
