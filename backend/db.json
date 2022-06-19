@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta TouchScreen",
-      "price": 235.89
+      "price": "235.90"
     },
     {
       "id": 2,
@@ -14,11 +14,6 @@
       "id": 3,
       "name": "Cadeira Confort Ofice!",
       "price": 865
-    },
-    {
-      "id": 4,
-      "name": "Teclado macio",
-      "price": 115.89
     },
     {
       "name": "Notebook Samsung",
@@ -36,8 +31,8 @@
       "id": 7
     },
     {
-      "name": "Geladeira",
-      "price": "566.98",
+      "name": "Teste",
+      "price": "1222.67",
       "id": 8
     }
   ]

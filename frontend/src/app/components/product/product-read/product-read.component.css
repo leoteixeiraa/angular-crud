@@ -11,3 +11,7 @@ table {
 .delete > i {
     color: crimson
 }
+
+.mat-card {
+    width: 50%;
+}
