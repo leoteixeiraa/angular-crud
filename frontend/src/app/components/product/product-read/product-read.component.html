@@ -39,5 +39,12 @@
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
 
-
-</div>
+    
+      
+    <div *ngIf="isLoading" 
+    style="display: flex; justify-content: center; align-items: center; background: white;">
+   <mat-progress-spinner 
+     color="primary" 
+     mode="indeterminate">
+   </mat-progress-spinner>
+ </div>

@@ -9,7 +9,7 @@ import { map, catchError } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "http://localhost:3001/products";
+  baseUrl = "https://fake-server-shop.herokuapp.com/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 

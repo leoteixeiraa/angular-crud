@@ -13,6 +13,7 @@
     "@angular/common": "~11.1.2",
     "@angular/compiler": "~11.1.2",
     "@angular/core": "~11.1.2",
+    "@angular/fire": "^7.4.1",
     "@angular/forms": "~11.1.2",
     "@angular/material": "^11.2.7",
     "@angular/platform-browser": "~11.1.2",
@@ -20,6 +21,7 @@
     "@angular/router": "~11.1.2",
     "currency-formatter": "^1.5.9",
     "rxjs": "~6.6.0",
+    "rxjs-compat": "^6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
