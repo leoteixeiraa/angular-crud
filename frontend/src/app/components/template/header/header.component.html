@@ -9,13 +9,12 @@
             <i class="material-icons">
                 {{icon}}
             </i>
-
         </a>
        
     </span>
     <span class="title"><a class="link" routerLink="{{routeUrl}}">{{title}}</a></span>
     <span class="espacamento-toolbar"></span>
     <button mat-icon-button>
-      <mat-icon>logout</mat-icon>
+      <mat-icon (click)="authService.SignOut()">logout</mat-icon>
     </button>
 </mat-toolbar>

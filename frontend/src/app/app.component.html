@@ -1,7 +1,7 @@
-<app-header></app-header>
-<app-nav></app-nav>
-<app-footer></app-footer>
+<app-header *ngIf="this.authService.isLoggedIn == true"></app-header>
+<app-nav *ngIf="this.authService.isLoggedIn == true"></app-nav>
+<app-footer *ngIf="this.authService.isLoggedIn == true"></app-footer>
 
 <mat-card-content>
     <router-outlet></router-outlet>
-  </mat-card-content>
+</mat-card-content>

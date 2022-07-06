@@ -4,7 +4,16 @@
 //Utilizado geralmente no processo de desenvolvimento para criar variaveis de ambiente.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyD1iZkmmjI3EzpRjADOhWLXEVW4_OBC9xw",
+    authDomain: "store-436c3.firebaseapp.com",
+    projectId: "store-436c3",
+    storageBucket: "store-436c3.appspot.com",
+    messagingSenderId: "690920901241",
+    appId: "1:690920901241:web:5135f90c29ca47704422a8",
+    measurementId: "G-Z5X626RB8D"
+  }
 };
 
 /*

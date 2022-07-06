@@ -1,0 +1,22 @@
+<mat-card *ngIf="this.authService.isLoggedIn == false">
+    <mat-card-title>Faça Login</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Login" name="name" [(ngModel)]="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="password" matInput placeholder="Senha" [(ngModel)]="senha" name="price">
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="authService.SignIn(this.email, this.senha)">
+            Entrar
+        </button>
+    </form>
+</mat-card>
+
+<div *ngIf="this.authService.isLoading" 
+    style="display: flex; justify-content: center; align-items: center; background: white;">
+   <mat-progress-spinner 
+     color="primary" 
+     mode="indeterminate">
+   </mat-progress-spinner>
+ </div>
