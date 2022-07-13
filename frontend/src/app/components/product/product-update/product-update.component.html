@@ -7,6 +7,19 @@
         <mat-form-field>
             <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
         </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Status1" [(ngModel)]="product.status1" name="status1">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Status2" [(ngModel)]="product.status2" name="status2">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descricao" [(ngModel)]="product.description" name="description">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Link Imagem" [(ngModel)]="product.img" name="img">
+        </mat-form-field>
     </form>
     <button mat-raised-button (click)="updateProduct()" color="accent">
         Atualizar

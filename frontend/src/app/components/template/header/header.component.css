@@ -1,6 +1,7 @@
 .header {
     display: flex;
     align-items: center;
+    background: #262835;
 }
 .header .a {
     display: flex;
@@ -8,7 +9,8 @@
     text-decoration: none;
 }
 .header .logo {
-    max-height: 25px;
+    max-height: 64px;
+    padding-top: 20px;
 }
 .header .title-group {
     padding-left: 25px
