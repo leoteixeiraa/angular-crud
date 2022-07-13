@@ -1,39 +1,47 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "name": "Caneta TouchScreen",
-      "price": "235.90"
-    },
-    {
-      "id": 2,
-      "name": "Mouse Gamer",
-      "price": 95.39
-    },
-    {
-      "id": 3,
-      "name": "Cadeira Confort Ofice!",
-      "price": 865
-    },
-    {
-      "name": "Notebook Samsung",
-      "price": "1545.83",
-      "id": 5
-    },
-    {
-      "name": "Celular Xiomi",
-      "price": "2358.66",
-      "id": 6
-    },
-    {
-      "name": "Veio do formulario",
-      "price": "455.87",
-      "id": 7
-    },
-    {
-      "name": "Teste",
-      "price": "1222.67",
-      "id": 8
-    }
-  ]
-}
+[
+  {
+    "name": "BlackCurrant Grape",
+    "price": "76.90",
+    "status1": "VapeSoul",
+    "status2": "1000 puffs",
+    "description": "Aproveite",
+    "img": "https://i.imgur.com/R0oxiAx.png",
+    "id": 1
+  },
+  {
+    "name": "BlueBerry Raspberry",
+    "price": "75.90",
+    "status1": "VapeSoul",
+    "status2": "1000 Puffs",
+    "description": "Disponível",
+    "img": "https://i.imgur.com/4u2j6ZV.png",
+    "id": 2
+  },
+  {
+    "name": "Honeydrew Melon Strawberrry Apple",
+    "price": "76.50",
+    "status1": "VapeSoul",
+    "status2": "1000 puffs",
+    "description": "Teste",
+    "img": "https://i.imgur.com/GhphbZj.png",
+    "id": 3
+  },
+  {
+    "name": "Blueberry",
+    "price": "75.90",
+    "status1": "VapeSoul",
+    "status2": "1000 puffs",
+    "description": "Disponível ",
+    "img": "https://i.imgur.com/rCzxwgM.png",
+    "id": 4
+  },
+  {
+    "name": "Lemon Grapefruit",
+    "price": "72.55",
+    "status1": "VapeSoul",
+    "status2": "1000 puffs",
+    "description": "Disponível",
+    "img": "https://i.imgur.com/qEHEQGi.png",
+    "id": 5
+  }
+]
